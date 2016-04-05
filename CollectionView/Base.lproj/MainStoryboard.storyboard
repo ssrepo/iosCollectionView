@@ -180,8 +180,8 @@
                                 <rect key="frame" x="16" y="206" width="299" height="172"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIW-iU-Nid">
-                                <rect key="frame" x="93" y="398" width="144" height="30"/>
-                                <state key="normal" title="Initiate Fund Transfer">
+                                <rect key="frame" x="93" y="398" width="203" height="30"/>
+                                <state key="normal" title="Initiate Another Fund Transfer">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -207,6 +207,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="MWj-WA-tOE"/>
+        <segue reference="gpo-7G-5w3"/>
     </inferredMetricsTieBreakers>
 </document>
