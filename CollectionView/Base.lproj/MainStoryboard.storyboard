@@ -19,15 +19,16 @@
             </objects>
             <point key="canvasLocation" x="-1564" y="153"/>
         </scene>
-        <!--Sen Nature PhotoShop-->
+        <!--Welcome MTA-->
         <scene sceneID="Vy6-Ll-qpW">
             <objects>
                 <collectionViewController autoresizesArchivedViewToFullSize="NO" id="dmE-Kn-TpH" customClass="ViewController" sceneMemberID="viewController">
                     <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="esX-eC-dy5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="v3l-BR-o28">
-                            <size key="itemSize" width="153" height="128"/>
+                            <size key="itemSize" width="259" height="312"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -37,11 +38,11 @@
                                 <rect key="frame" x="0.0" y="64" width="153" height="128"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="153" height="128"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="259" height="312"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IX-OE-Trn">
-                                            <rect key="frame" x="0.0" y="109" width="153" height="18"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IX-OE-Trn">
+                                            <rect key="frame" x="0.0" y="109" width="186" height="29"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="18" id="YsV-1J-e99"/>
                                             </constraints>
@@ -49,21 +50,29 @@
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="MGy-P6-tia">
-                                            <rect key="frame" x="5" y="6" width="144" height="105"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="600" verticalHuggingPriority="600" horizontalCompressionResistancePriority="400" verticalCompressionResistancePriority="400" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MGy-P6-tia">
+                                            <rect key="frame" x="-35" y="-51" width="294" height="298"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="105" id="edW-yw-lMB"/>
-                                                <constraint firstAttribute="width" constant="144" id="lMc-vz-AAG"/>
+                                                <constraint firstAttribute="height" constant="300" id="edW-yw-lMB"/>
+                                                <constraint firstAttribute="width" constant="250" id="lMc-vz-AAG"/>
                                             </constraints>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Continue " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aP0-BQ-93I">
+                                            <rect key="frame" x="93" y="279" width="73" height="25"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.025551987070000001" green="0.45579759510000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="MGy-P6-tia" firstAttribute="top" secondItem="85c-5p-sGb" secondAttribute="top" constant="6" id="Dce-QG-Dvo"/>
+                                    <constraint firstItem="MGy-P6-tia" firstAttribute="top" secondItem="85c-5p-sGb" secondAttribute="top" id="Dce-QG-Dvo"/>
                                     <constraint firstItem="9IX-OE-Trn" firstAttribute="trailing" secondItem="85c-5p-sGb" secondAttribute="trailing" id="MjW-iz-cda"/>
-                                    <constraint firstItem="MGy-P6-tia" firstAttribute="leading" secondItem="85c-5p-sGb" secondAttribute="leading" constant="5" id="OSS-jb-Mfr"/>
+                                    <constraint firstItem="MGy-P6-tia" firstAttribute="leading" secondItem="85c-5p-sGb" secondAttribute="leading" id="OSS-jb-Mfr"/>
                                     <constraint firstAttribute="bottom" secondItem="9IX-OE-Trn" secondAttribute="bottom" constant="1" id="peg-Q1-bLd"/>
                                     <constraint firstItem="9IX-OE-Trn" firstAttribute="leading" secondItem="85c-5p-sGb" secondAttribute="leading" id="sh8-U0-gIc"/>
                                 </constraints>
@@ -79,14 +88,14 @@
                             <outlet property="delegate" destination="dmE-Kn-TpH" id="pKl-zO-lPR"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="Sen Nature PhotoShop" id="Qqd-gG-ZaX"/>
+                    <navigationItem key="navigationItem" title="Welcome MTA" id="Qqd-gG-ZaX"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2FN-eK-xyQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1140" y="153"/>
+            <point key="canvasLocation" x="-1286" y="201"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Fund Tansfer-->
         <scene sceneID="1Dd-bb-8xN">
             <objects>
                 <viewController storyboardIdentifier="DetailView" id="7D1-T4-6U4" customClass="DetailViewController" sceneMemberID="viewController">
@@ -98,32 +107,106 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="fAT-Gn-JJ0">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="To Account" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="yso-BH-uTh">
+                                <rect key="frame" x="40" y="172" width="157" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="cLv-o8-5Bf">
+                                <rect key="frame" x="39" y="238" width="157" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WlA-Eo-zKn">
+                                <rect key="frame" x="84" y="317" width="145" height="38"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <state key="normal" title="Initiate Transfer">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bNL-XD-VVM" kind="modal" id="Lrr-KF-Pfn"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="From Account" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="t4z-2p-uyM">
+                                <rect key="frame" x="39" y="105" width="157" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="fAT-Gn-JJ0" firstAttribute="trailing" secondItem="28J-zl-sFH" secondAttribute="trailing" id="QeV-Kl-OdX"/>
-                            <constraint firstItem="fAT-Gn-JJ0" firstAttribute="leading" secondItem="28J-zl-sFH" secondAttribute="leading" id="XSD-P9-T5O"/>
-                            <constraint firstItem="fAT-Gn-JJ0" firstAttribute="bottom" secondItem="28J-zl-sFH" secondAttribute="bottom" id="e73-dT-LLU"/>
-                            <constraint firstItem="fAT-Gn-JJ0" firstAttribute="top" secondItem="28J-zl-sFH" secondAttribute="top" id="gZg-PY-hCp"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.43102746837967343" green="0.64965272308906297" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="h9O-C4-liR"/>
+                    <navigationItem key="navigationItem" title="Fund Tansfer" id="h9O-C4-liR"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="imageView" destination="fAT-Gn-JJ0" id="dCo-s9-0c9"/>
                         <outlet property="view" destination="28J-zl-sFH" id="b05-HO-tQg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aut-Ze-jzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-721" y="153"/>
+            <point key="canvasLocation" x="-150" y="89"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ccn-75-I8y">
+            <objects>
+                <viewController id="bNL-XD-VVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vdZ-al-amr"/>
+                        <viewControllerLayoutGuide type="bottom" id="zw2-Aa-RvG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uUQ-rC-g3h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transfer Confirmation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7k-Xd-QHY">
+                                <rect key="frame" x="89" y="9" width="169" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fund Transfer Successfull !!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0T9-1a-iIk">
+                                <rect key="frame" x="60" y="102" width="293" height="102"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thanks for Using MTA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOz-eo-2kA">
+                                <rect key="frame" x="74" y="177" width="175" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fundstranfer.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aq3-4x-YWg">
+                                <rect key="frame" x="16" y="206" width="299" height="172"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIW-iU-Nid">
+                                <rect key="frame" x="93" y="398" width="144" height="30"/>
+                                <state key="normal" title="Initiate Fund Transfer">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7D1-T4-6U4" kind="modal" id="gpo-7G-5w3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4310274684" green="0.6496527231" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msD-Hf-6JX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-575" y="70"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="fundstranfer.jpg" width="980" height="178"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="MWj-WA-tOE"/>
+    </inferredMetricsTieBreakers>
 </document>
