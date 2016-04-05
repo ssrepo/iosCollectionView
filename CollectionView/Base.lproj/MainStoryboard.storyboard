@@ -95,7 +95,7 @@
             </objects>
             <point key="canvasLocation" x="-1286" y="201"/>
         </scene>
-        <!--Fund Tansfer-->
+        <!--Money Tansfer-->
         <scene sceneID="1Dd-bb-8xN">
             <objects>
                 <viewController storyboardIdentifier="DetailView" id="7D1-T4-6U4" customClass="DetailViewController" sceneMemberID="viewController">
@@ -135,7 +135,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.43102746837967343" green="0.64965272308906297" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Fund Tansfer" id="h9O-C4-liR"/>
+                    <navigationItem key="navigationItem" title="Money Tansfer" id="h9O-C4-liR"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
