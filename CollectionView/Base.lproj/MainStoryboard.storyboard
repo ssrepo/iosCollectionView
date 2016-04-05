@@ -19,7 +19,7 @@
             </objects>
             <point key="canvasLocation" x="-1564" y="153"/>
         </scene>
-        <!--Nature PhotoShop-->
+        <!--SS Nature PhotoShop-->
         <scene sceneID="Vy6-Ll-qpW">
             <objects>
                 <collectionViewController autoresizesArchivedViewToFullSize="NO" id="dmE-Kn-TpH" customClass="ViewController" sceneMemberID="viewController">
@@ -79,7 +79,7 @@
                             <outlet property="delegate" destination="dmE-Kn-TpH" id="pKl-zO-lPR"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="Nature PhotoShop" id="Qqd-gG-ZaX"/>
+                    <navigationItem key="navigationItem" title="SS Nature PhotoShop" id="Qqd-gG-ZaX"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2FN-eK-xyQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
